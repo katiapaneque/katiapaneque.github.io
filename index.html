@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Katia Paneque Martinez – Resume</title>
+    <meta
+      name="description"
+      content="Resume of Katia Paneque Martinez — Full-Stack Developer, Victoria BC"
+    />
+    <style>
+      :root {
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --ink: #111;
+        --muted: #616161;
+        --accent: #2563eb;
+        --chip: #eef2ff;
+        --max: 920px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,
+          sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.55;
+      }
+      .wrap {
+        max-width: var(--max);
+        margin: 42px auto;
+        padding: 0 20px;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 18px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+        padding: 28px;
+      }
+      header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 18px;
+        align-items: start;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 18px;
+        margin-bottom: 18px;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin: 0 0 4px;
+      }
+      .subtitle {
+        color: var(--muted);
+        margin: 0;
+      }
+      .contact a {
+        display: inline-block;
+        padding: 8px 12px;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        text-decoration: none;
+        color: var(--ink);
+        margin-left: 10px;
+        white-space: nowrap;
+      }
+      .contact a:hover {
+        border-color: #c7cad1;
+      }
+      .section {
+        margin: 24px 0;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 0 0 10px;
+      }
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+      }
+      ul {
+        margin: 8px 0 0 20px;
+      }
+      li {
+        margin: 4px 0;
+      }
+      .role {
+        margin: 10px 0;
+      }
+      .role h3 {
+        margin: 0 0 2px;
+        font-size: 16px;
+      }
+      .role .meta {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .chip {
+        background: var(--chip);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 13px;
+      }
+      .btn-accent {
+        border-color: var(--accent) !important;
+        color: var(--accent) !important;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      footer {
+        border-top: 1px solid #eee;
+        margin-top: 16px;
+        padding-top: 14px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      /* Print styles */
+      @media print {
+        body {
+          background: #fff;
+        }
+        .wrap {
+          margin: 0;
+          padding: 0;
+        }
+        .card {
+          box-shadow: none;
+          border: 0;
+          padding: 0;
+        }
+        .contact a {
+          border: 0;
+          padding: 0;
+          margin: 0 10px 0 0;
+        }
+        .btn-accent {
+          color: inherit !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <main class="card" role="main">
+        <header>
+          <div>
+            <h1>Katia Paneque Martinez</h1>
+            <p class="subtitle">
+              Technology Professional • Full-Stack / Cloud-curious • Victoria,
+              BC, Canada
+            </p>
+            <p class="note">
+              Currently completing a Diploma in Information & Computer Systems
+              Technology (Aug 2025).
+            </p>
+          </div>
+          <nav class="contact" aria-label="Contact and links">
+            <a class="btn-accent" href="mailto:katia.paneque@gmail.com"
+              >Email</a
+            >
+            <a href="tel:+17789221684">Call</a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://linkedin.com/in/katia-paneque"
+              >LinkedIn</a
+            >
+            <a href="./resume.pdf" title="Download PDF resume">Download PDF</a>
+          </nav>
+        </header>
+
+        <section class="section">
+          <h2>Objective</h2>
+          <p>
+            Information and Computer Systems Technology student with practical
+            experience in full-stack development, system operations, and
+            enterprise application support. Currently completing a two-year
+            diploma while contributing to the development of an internal admin
+            dashboard for an enterprise client. Seeking to apply technical,
+            analytical, and documentation skills in a development, operations,
+            or systems administration role.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Skills & Abilities</h2>
+          <div class="grid-2">
+            <div>
+              <h3 class="note">Technical Specializations</h3>
+              <ul>
+                <li>
+                  Full-Stack Development; Cloud Computing; Application Support;
+                  IT Documentation
+                </li>
+                <li>
+                  Database Management; System Monitoring; Infrastructure as Code
+                  (basic exposure)
+                </li>
+              </ul>
+
+              <h3 class="note" style="margin-top: 12px">
+                Programming &amp; Tools
+              </h3>
+              <ul>
+                <li>
+                  <strong>Languages:</strong> C++, JavaScript, Java, SQL,
+                  SwiftUI, Python, PowerShell
+                </li>
+                <li>
+                  <strong>Frameworks/Tech:</strong> React.js, Node.js, MongoDB,
+                  REST APIs, Docker, GraphQL, gRPC, GitHub Actions
+                </li>
+                <li><strong>Testing:</strong> Postman, Vitest, TestComplete</li>
+                <li>
+                  <strong>Cloud &amp; Infra:</strong> AWS (Cognito, Lambda, API
+                  Gateway), Linux, Windows Server
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="note">Applications &amp; Systems</h3>
+              <ul>
+                <li>
+                  Oracle ERP, SAP, Kronos, SharePoint, Microsoft 365/Teams
+                </li>
+                <li>
+                  Object-Oriented Programming; Web Application Development
+                </li>
+                <li>
+                  Relational DB Design; SQL &amp; PL/SQL; Query Optimization
+                </li>
+                <li>JSON, XML, HTTP, SSH</li>
+              </ul>
+
+              <h3 class="note" style="margin-top: 12px">
+                Professional Strengths
+              </h3>
+              <ul>
+                <li>
+                  Clear written and verbal communication for technical and
+                  non-technical audiences
+                </li>
+                <li>Accurate documentation and process tracking.</li>
+                <li>Collaboration in Agile, sprint-based environments.</li>
+                <li>
+                  Comfortable learning new tools and standards (FedRAMP/NIST,
+                  cloud security, etc.)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="chips" style="margin-top: 10px">
+            <span class="chip">TypeScript/JS</span
+            ><span class="chip">React</span><span class="chip">Node</span>
+            <span class="chip">GraphQL</span><span class="chip">AWS</span
+            ><span class="chip">Docker</span> <span class="chip">SQL/PLSQL</span
+            ><span class="chip">Linux</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Experience</h2>
+
+          <div class="role">
+            <h3>Capstone Developer – Admin Dashboard for Dyspatch</h3>
+            <div class="meta">
+              Camosun College • Victoria, BC • May 2025 – Present
+            </div>
+            <ul>
+              <li>
+                Implemented frontend and backend features in React, Node.js, and
+                GraphQL for an enterprise admin dashboard.
+              </li>
+              <li>
+                Designed and integrated APIs, resolving cross-service issues
+                through debugging and testing.
+              </li>
+              <li>
+                Configured Docker containers and GitHub Actions workflows to
+                support CI/CD pipelines.
+              </li>
+              <li>
+                Authored user and technical documentation; assisted QA using
+                Postman and Vitest.
+              </li>
+            </ul>
+          </div>
+
+          <div class="role">
+            <h3>Operations Performance Management Supervisor</h3>
+            <div class="meta">
+              Island Farms – Agropur • Victoria, BC • Jan 2022 – Jun 2023
+            </div>
+            <ul>
+              <li>
+                Contributed to transition from Oracle ERP to SAP, validating
+                data integrity and ensuring uninterrupted operations.
+              </li>
+              <li>
+                Designed and implemented a custom planning and resource
+                management tool, improving forecasting accuracy and resource
+                utilization by up to 90%.
+              </li>
+              <li>
+                Analyzed operational data to identify process gaps and recommend
+                measurable efficiency improvements.
+              </li>
+            </ul>
+          </div>
+
+          <div class="role">
+            <h3>Production Office Clerk</h3>
+            <div class="meta">
+              Island Farms – Agropur • Victoria, BC • Feb 2020 – Jan 2022
+            </div>
+            <ul>
+              <li>
+                Maintained inventory and logistics records; generated order
+                trend reports for management.
+              </li>
+              <li>
+                Provided frontline technical support for ERP and production
+                systems.
+              </li>
+            </ul>
+          </div>
+
+          <div class="role">
+            <h3>Microbiology Supervisor</h3>
+            <div class="meta">
+              MB Laboratories • Sidney, BC • Jul 2009 – Nov 2019
+            </div>
+            <ul>
+              <li>
+                Directed environmental and food safety testing operations in
+                compliance with regulatory standards.
+              </li>
+              <li>
+                Maintained QA documentation and ensured readiness for audits.
+              </li>
+            </ul>
+          </div>
+
+          <div class="role">
+            <h3>Research Assistant</h3>
+            <div class="meta">
+              Centre of Marine Bioproducts • Havana, Cuba • Sept 2005 – May 2009
+            </div>
+            <ul>
+              <li>
+                Conducted data collection and analysis for marine environmental
+                remediation studies.
+              </li>
+              <li>
+                Contributed to scientific reports and co-authored peer-reviewed
+                publications.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <strong
+                >Diploma, Information &amp; Computer Systems Technology</strong
+              >
+              — Camosun College, Victoria, BC (Sept 2023 – Aug 2025)
+            </li>
+            <li>
+              <strong>B.Sc. (Hons) Microbiology</strong> — University of Havana,
+              Cuba (2005)
+            </li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Soft Skills</h2>
+          <div class="chips">
+            <span class="chip">Communication & Teamwork</span>
+            <span class="chip">Troubleshooting & Debugging</span>
+            <span class="chip">Agile Collaboration</span>
+            <span class="chip">Leadership & Initiative</span>
+            <span class="chip">Strategic Planning</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Interests</h2>
+          <p>
+            Cloud Infrastructure • Web Development • Data Security • Renewable
+            Energy • Cooking
+          </p>
+        </section>
+
+        <footer>
+          <span
+            >📍 Victoria, BC • ✉️ katia.paneque@gmail.com • 📞 778-922-1684 • 🔗
+            linkedin.com/in/katia-paneque</span
+          >
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
