@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -6,7 +6,7 @@
     <title>Katia Paneque Martinez – Resume</title>
     <meta
       name="description"
-      content="Resume of Katia Paneque Martinez — Full-Stack Developer, Victoria BC"
+      content="Resume of Katia Paneque Martinez — Junior Software Developer, Victoria BC"
     />
 
     <style>
@@ -31,8 +31,14 @@
         padding: 0;
       }
       body {
-        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
-          Arial, sans-serif;
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Arial,
+          sans-serif;
         color: var(--ink);
         background: var(--bg);
         line-height: 1.65;
@@ -81,7 +87,9 @@
         color: var(--ink);
         margin-left: 10px;
         white-space: nowrap;
-        transition: transform 0.08s ease, border-color 0.2s ease,
+        transition:
+          transform 0.08s ease,
+          border-color 0.2s ease,
           background 0.2s ease;
       }
       .contact a:hover {
@@ -181,6 +189,17 @@
         color: var(--muted);
         font-size: 14px;
       }
+
+      /* Certification links: neutral, resume-style */
+      .certifications a {
+        color: var(--ink);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--line);
+      }
+
+      .certifications a:hover {
+        border-bottom-color: var(--accent);
+      }
     </style>
   </head>
 
@@ -191,7 +210,9 @@
         <header>
           <div>
             <h1>Katia Paneque Martinez</h1>
-            <p class="subtitle">Full-Stack Developer • Victoria, BC, Canada</p>
+            <p class="subtitle">
+              Junior Software Developer • Victoria, BC, Canada
+            </p>
           </div>
           <nav class="contact" aria-label="Contact and links">
             <a class="accent" href="mailto:katia.paneque@gmail.com">Email</a>
@@ -210,12 +231,12 @@
           <h2>Objective</h2>
           <div class="divider"></div>
           <p>
-            Full-stack developer with experience in React, TypeScript, Node.js,
-            GraphQL, Go services, and AWS. Delivered production features at
-            Dyspatch across UI components, internal tooling, email rendering
-            systems, and LLM-optimized documentation. Strong in debugging
-            complex pipelines, working in large monorepos, and improving
-            developer workflows.
+            Junior software developer with experience in React, TypeScript,
+            Node.js, GraphQL, Go services, and AWS. Delivered production
+            features at Dyspatch across UI components, internal tooling, email
+            rendering systems, and documentation pipelines. Strong in debugging
+            complex workflows, working in large monorepos, and improving
+            developer productivity.
           </p>
         </section>
 
@@ -274,6 +295,8 @@
             ><span class="chip">Node</span><span class="chip">GraphQL</span
             ><span class="chip">AWS</span><span class="chip">Docker</span
             ><span class="chip">SQL</span><span class="chip">Linux</span>
+            <span class="chip">Linux Security</span>
+            <span class="chip">Network Fundamentals</span>
           </div>
         </section>
 
@@ -282,7 +305,7 @@
           <h2>Experience</h2>
           <div class="divider"></div>
 
-          <!-- Dyspatch -->
+          <!-- Dyspatch (revised to be more resume-like) -->
           <div class="role">
             <h3>Junior Software Developer</h3>
             <div class="meta">
@@ -290,22 +313,33 @@
             </div>
             <ul>
               <li>
-                Delivered production UI and backend features across the Dyspatch
-                email builder ecosystem using React, TypeScript, GraphQL,
-                Node.js, and Go.
+                Contributed production UI and backend features across the email
+                builder ecosystem, DML rendering engine, and internal developer
+                tooling within a large-scale monorepo.
               </li>
               <li>
-                Built LLM-optimized documentation consumed by ChatGPT, Claude,
-                and Perplexity, including markdown pipelines and bot-specific
-                routing.
+                Delivered UI enhancements using React, TypeScript, MUI, and
+                schema-driven patterns; updated backend logic across services
+                using Node.js, Go, GraphQL, and gRPC.
               </li>
               <li>
-                Designed and implemented the Pill DML abstraction with Outlook
-                fallbacks and theme support.
+                Designed and implemented a Pill DML abstraction with
+                Outlook-safe fallbacks, theme support, and editor integration to
+                address cross-client email rendering constraints.
               </li>
               <li>
-                Improved internal workflows and resolved issues in exporters,
-                validators, inliners, and AST processing.
+                Improved rendering and export reliability by working on
+                exporters, validators, AST-based processing modules, and CSS
+                inlining workflows.
+              </li>
+              <li>
+                Built and maintained documentation pipelines, including markdown
+                generation, autocomplete metadata, bot-specific routing, and
+                Nginx user-agent detection.
+              </li>
+              <li>
+                Strengthened test coverage and regression confidence using
+                Vitest, MSW, and Supertest; coordinated work using Asana.
               </li>
             </ul>
           </div>
@@ -408,13 +442,59 @@
           <ul>
             <li>
               <strong
-                >Diploma, Information & Computer Systems Technology</strong
+                >Diploma, Information &amp; Computer Systems Technology</strong
               >
               — Camosun College, Victoria, BC (2023–2025)
             </li>
             <li>
               <strong>B.Sc. (Hons) Microbiology</strong> — University of Havana,
               Cuba (2005)
+            </li>
+          </ul>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="certifications">
+          <h2>Certifications</h2>
+          <div class="divider"></div>
+          <ul>
+            <li>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/HQ5CIR3OOWMC"
+                target="_blank"
+                rel="noopener"
+                ><strong
+                  >Connect and Protect: Networks and Network Security</strong
+                ></a
+              >
+              — Google (2026)
+            </li>
+            <li>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/D5JSTHGHAV0M"
+                target="_blank"
+                rel="noopener"
+                ><strong>Play It Safe: Manage Security Risks</strong></a
+              >
+              — Google (2026)
+            </li>
+            <li>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/IA0DO9H15V6W"
+                target="_blank"
+                rel="noopener"
+                ><strong>Tools of the Trade: Linux and SQL</strong></a
+              >
+              — Google (2026)
+            </li>
+            <li>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/WXGIGEL3RAJS"
+                target="_blank"
+                rel="noopener"
+                ><strong>Foundations of Cybersecurity</strong></a
+              >
+              — Google (2025)
             </li>
           </ul>
         </section>
